@@ -7,8 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface ViewController : UIViewController
+#import "WXApi.h"
+@interface ViewController : UIViewController<WXApiDelegate>
 
 
 @end
